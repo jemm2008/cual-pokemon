@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejmplo This</title>
+</head>
+<body>
+    <button id="uno" >Hazme clic 1</button>
+    <button id="dos">Hazme clic 2</button>
+    <button id="tres">Hazme clic 3</button>
+ 
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+    <script>
+$('button').click( function (){
+    // $(this).text("Hola!");
+    var idatributo = $(this).attr("id");
+    console.log(idatributo);
+});
+    </script>
+</body>
+</html>
